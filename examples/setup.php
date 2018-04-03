@@ -36,7 +36,7 @@ MailWizzApi_Autoloader::register();
 
 // configuration object
 $config = new MailWizzApi_Config(array(
-    'apiUrl'        => 'http://www.mailwizz-powered-website.tld/api',
+    'apiUrl'        => 'https://emarketing.dmci.co/api/',
     'publicKey'     => 'PUBLIC-KEY',
     'privateKey'    => 'PRIVATE-KEY',
 
@@ -53,4 +53,4 @@ $config = new MailWizzApi_Config(array(
 MailWizzApi_Base::setConfig($config);
 
 // start UTC
-date_default_timezone_set('UTC');
+date_default_timezone_set('America/Bogota');
